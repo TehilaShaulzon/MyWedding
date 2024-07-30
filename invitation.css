@@ -1,0 +1,53 @@
+#picturesInWidth>button,
+#picturesInLength>button {
+    background: none;
+    border: none;
+}
+
+#picturesInWidth {
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+
+
+}
+
+#scroll {
+    position: relative;
+
+}
+
+/* #choosePictures::-webkit-scrollbar{
+    display: none;
+} */
+
+
+
+#scroll-left-button,
+#scroll-right-button {
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    /* Additional styles */
+    font-size: 80px;
+}
+
+#scroll-left-button {
+    left: 10px;
+}
+
+#scroll-right-button {
+    right: 10px;
+}
+.inputDetails{
+    /* border-color: rgb(150, 126, 5) ; */
+    background-color:rgb(34, 34, 34);
+    width: 300px;
+    height: 60px;
+    color: rgb(250, 248, 248);
+    border:2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    
+}

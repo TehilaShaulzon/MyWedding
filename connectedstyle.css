@@ -1,0 +1,50 @@
+.inputform {
+  width: 300px;
+  height: 60px;
+  background-color: rgb(48, 45, 45);
+  color: gray;
+
+}
+
+.buttonform {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(48, 45, 45);
+  color: gray;
+  font-family: Arial !important;
+}
+
+body {
+  margin-top: 10% !important;
+}
+
+#notvisible {
+  visibility: hidden;
+}
+
+#labeldate {
+  position: absolute;
+  /* top: 70.5%; */
+  /* transform: translatex(-105%); */
+  /* transform: translateY(10%); */
+  transform: translate(-105%, 10%);
+  text-align: right !important;
+  font-size: small;
+
+}
+
+#container>p {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#return {
+  background: none;
+  border: none;
+  font-size: 5rem;
+  float: left;
+  position: fixed;
+  top: 8%;
+  left: 5%;
+  color: aliceblue;
+}
